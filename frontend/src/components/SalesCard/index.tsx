@@ -10,6 +10,7 @@ function SalesCard() {
 
     const [minDate, setMinDate] = useState(minimaDate);
     const [maxDate, setMaxDate] = useState(new Date());
+    
     return(
         <div className="dsmeta-card">
             <h2 className="dsmeta-sales-title">Vendas</h2>
